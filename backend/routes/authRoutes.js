@@ -7,7 +7,7 @@ const router = express.Router();
 
 // Ruta de registro
 router.post('/register', async (req, res) => {
-  const { email, password, name } = req.body;
+  const { email, password, name, roles} = req.body;
 
   try {
     // Verificar si ya existe un usuario con ese email
@@ -21,10 +21,7 @@ router.post('/register', async (req, res) => {
       email,
       password, // Será encriptado automáticamente por el middleware del modelo
       name,
-      roles: [
-        { section: 'dashboard', level: 'admin' },
-        { section: 'settings', level: 'moderator' }
-      ]
+      roles
     });
 
     await newUser.save();

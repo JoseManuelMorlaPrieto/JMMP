@@ -4,7 +4,7 @@ const bcrypt = require('bcryptjs'); // Para la encriptación de contraseñas
 const userSchema = new mongoose.Schema({
   email: { type: String, required: true, unique: true }, // Email único
   password: { type: String, required: false }, // Contraseña (solo para login tradicional)
-  googleId: { type: String, required: false, unique: true }, // Google ID (solo para login con Google)
+  googleId: { type: String, required: false, sparse: true }, // Google ID (solo para login con Google)
   name: { type: String, required: false }, // Nombre del usuario
   avatar: { type: String, required: false }, // Foto de perfil (opcional)
   roles: [{ // Array de roles

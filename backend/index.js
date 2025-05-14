@@ -6,6 +6,7 @@ const mongoose = require('mongoose');
 
 const authRoutes = require('./routes/authRoutes'); 
 const adminRoutes = require('./routes/adminRoutes');
+const userRoutes = require('./routes/users')
 
 const app = express();
 const PORT = process.env.PORT || 3000;
@@ -24,6 +25,7 @@ mongoose.connect(DB_URI, { useNewUrlParser: true, useUnifiedTopology: true })
 app.use('/api', authRoutes);
 
 app.use('/api', adminRoutes);
+app.use('/api/user', userRoutes);
 
 app.get('/', (req, res) => {
   res.send('API funcionando correctamente 🚀');
