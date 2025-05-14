@@ -53,7 +53,7 @@ cd JMMP
 
 ### 2. Instalar dependencias
 Backend
-bash
+```bash
 Copiar código
 cd backend
 npm install
@@ -62,10 +62,10 @@ bash
 Copiar código
 cd ../frontend
 npm install
-
+```
 ### 3. Ejecutar el servidor y el cliente
 Backend (Puerto 3000 por defecto)
-bash
+```bash
 Copiar código
 cd backend
 npm start
@@ -74,7 +74,7 @@ bash
 Copiar código
 cd ../frontend
 npm run dev
-
+```
 ### 🔐 Autenticación
 Al hacer login correctamente, se guarda un token JWT en localStorage.
 
