@@ -39,7 +39,7 @@ JMMP/
 │ ├── package-lock.json
 │ └── package.json
 
-
+```
 ---
 
 ## 🚀 Cómo ejecutar el proyecto
