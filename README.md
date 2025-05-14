@@ -16,29 +16,28 @@ Proyecto Full Stack de gestión de usuarios desarrollado con **React**, **Node.j
 ```
 JMMP/
 ├── backend/
-│   ├── middleware/
-│   ├── models/
-│   ├── routes/
-│   ├── .env
-│   ├── index.js
-│   ├── package-lock.json
-│   └── package.json
+│ ├── middleware/
+│ ├── models/
+│ ├── routes/
+│ ├── .env
+│ ├── index.js
+│ ├── package-lock.json
+│ └── package.json
 ├── frontend/
-│   ├── public/
-│   ├── src/
-│   │   ├── components/
-│   │   ├── context/
-│   │   ├── pages/
-│   │   ├── App.css
-│   │   ├── App.jsx
-│   │   ├── index.css
-│   │   └── main.jsx
-│   ├── eslint.config.js
-│   ├── index.html
-│   ├── vite.config.js
-│   ├── package-lock.json
-│   └── package.json
-```
+│ ├── public/
+│ ├── src/
+│ │ ├── components/
+│ │ ├── context/
+│ │ ├── pages/
+│ │ ├── App.css
+│ │ ├── App.jsx
+│ │ ├── index.css
+│ │ └── main.jsx
+│ ├── eslint.config.js
+│ ├── index.html
+│ ├── vite.config.js
+│ ├── package-lock.json
+│ └── package.json
 
 
 ---
