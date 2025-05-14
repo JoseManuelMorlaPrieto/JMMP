@@ -13,7 +13,7 @@ Proyecto Full Stack de gestión de usuarios desarrollado con **React**, **Node.j
 ---
 
 ## 📁 Estructura del proyecto
-
+```
 JMMP/
 ├── backend/
 │   ├── middleware/
@@ -38,7 +38,7 @@ JMMP/
 │   ├── vite.config.js
 │   ├── package-lock.json
 │   └── package.json
-
+```
 
 
 ---
