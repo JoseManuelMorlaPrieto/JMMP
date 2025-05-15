@@ -1,0 +1,10 @@
+// models/Anime.js
+import Media from './Media.js';
+import mongoose from 'mongoose';
+
+const animeSchema = new mongoose.Schema({
+  studio: String,
+  isDubbed: Boolean
+});
+
+export default Media.discriminator('Anime', animeSchema);
